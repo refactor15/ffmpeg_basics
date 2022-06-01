@@ -2,7 +2,7 @@
 
 ## Introduction
 
->FFmpeg is a **free and open-source** software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. At its core is the command-line `ffmpeg` tool itself, designed for processing of video and audio files.
+>[FFmpeg](https://ffmpeg.org/) is a **free and open-source** software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. At its core is the command-line `ffmpeg` tool itself, designed for processing of video and audio files.
 
 ## Basic Usages
 
@@ -46,7 +46,7 @@ ffmpeg -i input.mov -ss 0ms -t 10000ms output.mov
 ffmpeg -i "concat:input1.aac|input2.aac" -acodec copy output.aac
 ```
 
-## ffmpy3
+## [ffmpy3](https://github.com/wchill/ffmpy3)
 
 >A simple asynchronous Python wrapper for ffmpeg
 
